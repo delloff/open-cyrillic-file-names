@@ -1,5 +1,6 @@
-import transliterate
 import os
+import transliterate
+
 
 old_path = os.path.join("D:\Books", "Название на русском.xlsx")
 new_path = os.path.join("D:\Books", transliterate.translit('Название на русском.xlsx'.replace(' ','_'), reversed=True))
